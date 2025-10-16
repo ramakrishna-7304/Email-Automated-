@@ -10,7 +10,7 @@ import google.generativeai as genai #to generate AI-written emails,
 from email.message import EmailMessage #to construct email objects properly.
 
 # Setup Gemini AI
-genai.configure(api_key="AIzaSyDJM2mANLFzwEOLpPsVZJ2ZCHPv1yM1Q2E")
+genai.configure(api_key="API_KEY")
 
 class SmartEmailAssistant(tk.Tk):
     def __init__(self):
@@ -329,3 +329,4 @@ class SmartEmailAssistant(tk.Tk):
 if __name__ == "__main__":
     app = SmartEmailAssistant()
     app.mainloop()
+
